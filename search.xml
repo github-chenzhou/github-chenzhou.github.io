@@ -49,6 +49,14 @@
     </entry>
     
     <entry>
+      <title><![CDATA[移动前端HTML5head头标签]]></title>
+      <url>http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">移动前端HTML5 head头标签</a><br><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">转载地址</a></p>
+<p>HTML的头部内容特别多，有针对SEO的头部信息，也有针对移动设备的头部信息。而且各个浏览器内核以及各个国内浏览器厂商都有些自己的标签元素,有很多差异性。移动端的工作已经越来越成为前端工作的重要内容，除了平常的项目开发，HTML 头部标签功能，特别是meta，link等标签的功能属性显得非常重要。这里整理了一份 <head> 部分的清单，让大家了解每个标签及相应属性的意义，写出满足自己需求的 <head> 头部标签，可以很有效的增强页面的可用性。</head></head></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[All About Favicons (And Touch Icons)]]></title>
       <url>http://chenhutong.com/2016/04/20/All%20About%20Favicons/</url>
       <content type="html"><![CDATA[<p>All About Favicons (And Touch Icons)</p>
@@ -58,14 +66,6 @@
 <p>The favicon (favourite icon) is an image used by browsers to represent a web page. It is typically 16x16 pixels, but varying and larger sizes are now more frequently required due to browsers using them in a growing number of ways -</p>
 <p>The address bar<br>The links bar<br>Bookmarks<br>Tabs<br>Desktop icon<br>If we do not specify where to find the favicon, all major browsers (as early as IE5) will by default search for a file named “favicon.ico” in the website’s root directory. This means that we technically do not need to declare anything else to have a working favicon.</p>
 <p>However, using the ico format can be limiting. It doesn’t support transparency, and isn’t the most optimized for the web. Nowadays, we are able to use a wider range of formats including png, gif, jpeg, and, in limited circumstances, svg.</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[移动前端HTML5head头标签]]></title>
-      <url>http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/</url>
-      <content type="html"><![CDATA[<p><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">移动前端HTML5 head头标签</a><br><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">转载地址</a></p>
-<p>HTML的头部内容特别多，有针对SEO的头部信息，也有针对移动设备的头部信息。而且各个浏览器内核以及各个国内浏览器厂商都有些自己的标签元素,有很多差异性。移动端的工作已经越来越成为前端工作的重要内容，除了平常的项目开发，HTML 头部标签功能，特别是meta，link等标签的功能属性显得非常重要。这里整理了一份 <head> 部分的清单，让大家了解每个标签及相应属性的意义，写出满足自己需求的 <head> 头部标签，可以很有效的增强页面的可用性。</head></head></p>
 ]]></content>
     </entry>
     

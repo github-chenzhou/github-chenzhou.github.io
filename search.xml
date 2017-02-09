@@ -4,6 +4,116 @@
   
     
     <entry>
+      <title><![CDATA[Service worker实现加速/离线访问静态blog网站]]></title>
+      <url>http://chenhutong.com/2017/02/09/Service%20worker%E5%AE%9E%E7%8E%B0%E5%8A%A0%E9%80%9F:%E7%A6%BB%E7%BA%BF%E8%AE%BF%E9%97%AE%E9%9D%99%E6%80%81blog%E7%BD%91%E7%AB%99/</url>
+      <content type="html"><![CDATA[<p><a href="http://mp.weixin.qq.com/s/y8zgMC7BIhdcms7qQG4oEw" target="_blank" rel="external">Service worker实现加速/离线访问静态blog网站</a><br><a href="http://mp.weixin.qq.com/s/y8zgMC7BIhdcms7qQG4oEw" target="_blank" rel="external">转载地址</a></p>
+<p>现在很流行基于 GitHub page 和 markdown 的静态 blog，非常适合技术的思维和习惯，针对不同的语言都有一些优秀的静态 blog 系统出现，如 Jekyll/Ruby，Pelican/Python，Hexo/NodeJs，由于静态内容的特性非常适合做缓存来加速页面的访问，就利用 Service worker 来实现加速，结果是除了 PageSpeed，CDN 这些常见的服务器和网络加速之外，通过客户端实现了更好的访问体验。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Caching best practices & max-age gotchas]]></title>
+      <url>http://chenhutong.com/2017/02/09/Caching%20best%20practices/</url>
+      <content type="html"><![CDATA[<p><a href="https://jakearchibald.com/2016/caching-best-practices/" target="_blank" rel="external">Caching best practices &amp; max-age gotchas</a><br><a href="https://jakearchibald.com/2016/caching-best-practices/" target="_blank" rel="external">转载地址</a></p>
+<p>Getting caching right yields huge performance benefits, saves bandwidth, and reduces server costs, but many sites half-arse their caching, creating race conditions resulting in interdependent resources getting out of sync.</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Progressive Web Apps with Webpack]]></title>
+      <url>http://chenhutong.com/2017/02/09/Progressive%20Web%20Apps%20with%20Webpack/</url>
+      <content type="html"><![CDATA[<p><a href="http://michalzalecki.com/progressive-web-apps-with-webpack/" target="_blank" rel="external">Progressive Web Apps with Webpack</a><br><a href="http://michalzalecki.com/progressive-web-apps-with-webpack/" target="_blank" rel="external">转载地址</a></p>
+<p>My first offline web app heavily depended on AppCache and it was painful experience. Don’t get me wrong, AppCache initially blow my mind, in a positive sense. Web App without a web? In the browser? Sounds awesome, isn’t it? My further experiments with AppCache convinced me that unfortunately it’s not the path I’d like to follow when it comes to building something serious.</p>
+<p>AppCache makes many assumptions which is prone to many real-world loopholes and manifest file is nothing more than configuration file referenced in HTML. I didn’t know what can be the right way to deal with offline web apps at that time. Progressive Web App Dev Summit was quite a breakthrough for me. Service Workers gives developer a great power of delivering offline experience (programmatically) without the need of installing native app. How cool is that!</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[ECMAScript 6 入门]]></title>
+      <url>http://chenhutong.com/2017/02/09/ECMAScript%206%20%E5%85%A5%E9%97%A8/</url>
+      <content type="html"><![CDATA[<p><a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">ECMAScript 6 入门</a><br><a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">转载地址</a></p>
+<p>本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。</p>
+<p>本书为中级难度，适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。</p>
+<p>全书已由电子工业出版社出版，目前是第二版，书名为《ES6 标准入门》。纸版是基于网站内容排版印刷的。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CSS3动画手册]]></title>
+      <url>http://chenhutong.com/2017/02/09/CSS3%E5%8A%A8%E7%94%BB%E6%89%8B%E5%86%8C/</url>
+      <content type="html"><![CDATA[<p><a href="https://isux.tencent.com/css3/index.html" target="_blank" rel="external">CSS3动画手册</a><br><a href="https://isux.tencent.com/css3/index.html" target="_blank" rel="external">转载地址</a></p>
+<p>CSS3动画手册 动画工具</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Service Worker那些事]]></title>
+      <url>http://chenhutong.com/2017/02/09/Service%20Worker%E9%82%A3%E4%BA%9B%E4%BA%8B/</url>
+      <content type="html"><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/20040372?columnSlug=FrontendMagazine" target="_blank" rel="external">Service Worker那些事</a><br><a href="https://zhuanlan.zhihu.com/p/20040372?columnSlug=FrontendMagazine" target="_blank" rel="external">转载地址</a></p>
+<p>丰富的离线体验，定期的后台同步，推送通知，这些通常需要一个本地应用程序才能实现的功能现在已经来到了 web 端。以上这些特性背后所依赖的技术都会通过 service worker 提供。 </p>
+<p>Service Worker是什么?</p>
+<p>Service Worker 是一个脚本，浏览器独立于当前网页，将其在后台运行,为实现一些不依赖页面或者用户交互的特性打开了一扇大门。在未来这些特性将包括推送消息,背景后台同步， geofencing（地理围栏定位），但它将推出的第一个首要特性，就是拦截和处理网络请求的能力，包括以编程方式来管理被缓存的响应。</p>
+<p>作者：姜天意<br>链接：<a href="https://zhuanlan.zhihu.com/p/20040372" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/20040372</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[微信、facebook、google+、twitter等分享的标签]]></title>
+      <url>http://chenhutong.com/2017/02/09/%E5%BE%AE%E4%BF%A1%E3%80%81facebook%E3%80%81google+%E3%80%81twitter%E7%AD%89%E5%88%86%E4%BA%AB%E7%9A%84%E6%A0%87%E7%AD%BE/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.cnblogs.com/zdz8207/p/share-wx_pic-meta.html" target="_blank" rel="external">微信分享缩略图，如何增加微信朋友圈分享链接的小图片? facebook、google+、twitter等分享的标签</a></p>
+<p>微信分享缩略图</p>
+<p>如何增加微信朋友圈分享链接的小图片?<br>在网页的头部<head>标签内加上以下代码，图片路径自行修改。</head></p>
+<head><br><div id="wx_pic" style="margin:0 auto;display:none;"><br><img src="/images/pic300.jpg"><br></div><br></head>
+
+<p>制作像素是 300*300px的图片，命名为pic300.jpg。将图片放到步骤一对应的路径下,或者用完整URL形式。<br>保存好文件后，就可以分享到朋友圈了。此时分享的网页链接就会有小图片显示了。</p>
+<p>注意：<br>必须放在head标签内，div的id必须是wx_pic，图片比例300px左右，1:1左右比例才能正常显示。<br>尺寸必须是300*300像素或者是1:1左右正方形的比例，否则在iphone手机上很可能显示不出来。</p>
+<p>另：facebook、google+、twitter等分享的标签为：</p>
+<p><meta property="og:type" content="article"></p>
+<p><meta property="og:url" content="http://www.xxx.com/xxx"></p>
+<p><meta property="og:title" content="xxx"></p>
+<p><meta property="og:description" content="xxx..."></p>
+<meta property="og:image" content="http://xxx">
+
+<p>新浪微博更新时间标签：</p>
+<p><meta name="weibo: article:create_at" content="2016-01-29 11:40:03 +0800"></p>
+<meta name="weibo: article:update_at" content="2016-01-29 11:41:23 +0800">
+
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Absolute Centering in CSS]]></title>
+      <url>http://chenhutong.com/2017/02/09/%E5%B1%85%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p><a href="http://codepen.io/shshaw/full/gEiDt" target="_blank" rel="external">Absolute Centering in CSS</a><br><a href="http://codepen.io/shshaw/full/gEiDt" target="_blank" rel="external">转载地址</a></p>
+<p>Recommendations</p>
+<p>Each technique has their advantages. Which one you choose mainly boils down to which browsers you support and what your existing markup looks like, but use the comparison table to make the right choice to match the features you need.</p>
+<p>Absolute Centering works great as a simple drop-in solution with no-fuss. Anywhere you used Negative Margins before, use Absolute Centering instead. You won’t have to deal with pesky math for the margins or extra markup, and you can size your boxes responsively.</p>
+<p>If your site requires variable height content with the best browser compatibility, try out the Table-Cell, Inline-Block techniques. If you’re on the bleeding edge, give Flexbox a try and reap the benefits of its advanced layout techniques.</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[学习 Web 开发的最佳实践]]></title>
+      <url>http://chenhutong.com/2017/02/09/%E5%AD%A6%E4%B9%A0%20Web%20%E5%BC%80%E5%8F%91%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</url>
+      <content type="html"><![CDATA[<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/Tutorials" target="_blank" rel="external">学习 Web 开发的最佳实践</a></p>
+<p>HTML 入门<br>初级课程</p>
+<p>Javascript 入门<br>初级课程</p>
+<p>中级课程</p>
+<p>JavaScript 再深入</p>
+<p>高级课程</p>
+<p>JavaScript 指南</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[前端常用工具类库api]]></title>
+      <url>http://chenhutong.com/2017/02/09/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%BA%93api/</url>
+      <content type="html"><![CDATA[<p><a href="http://backbonejs.org/" target="_blank" rel="external">backbone</a><br><a href="http://overapi.com/" target="_blank" rel="external">类库api集合overapi</a></p>
+<p><a href="http://requirejs.org/" target="_blank" rel="external">requirejs</a><br><a href="http://www.requirejs.cn/" target="_blank" rel="external">requirejs中文</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[最全前端资源汇集]]></title>
       <url>http://chenhutong.com/2017/02/08/Web%E5%85%A8%E6%A0%88%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97/</url>
       <content type="html"><![CDATA[<p><a href="https://getfullstack.com/" target="_blank" rel="external">Web全栈技术指南</a><br><a href="https://getfullstack.com/" target="_blank" rel="external">转载地址</a></p>
@@ -27,17 +137,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[前端开发者手册]]></title>
-      <url>http://chenhutong.com/2017/02/08/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/</url>
-      <content type="html"><![CDATA[<p><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">前端开发者手册</a><br><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">转载地址</a></p>
-<p>撰写该手册的目的有两个: 一是为潜在以及正在实践的前端开发人员提供一个包括学习资料和开发工具的专业资源; 二是该手册可以被管理者, CTO, 讲师和猎头用来作为洞察前端开发的实践.<br>该手册的内容支持Web技术(HTML, CSS, DOM, 和 JavaScript), 并且手册提供的解决方案都直接建立在这些开放的技术之上. 手册中所引用的素材和讨论都是最好的或者当前前端开发者们需要面对的问题.<br>该手册不应该被视为一个前端开发者对所有可用资源的综合大纲, 其价值在于简洁, 专注和及时管理足够的分类信息, 不致于任何人沉浸在任何一个特定的主题.<br>该手册会每年发布一个更新内容.<br>该手册分为三个部分:<br>第一部分：前端开发实践</p>
-<p>第一部分会大致描述前端工程的实践<br>第二部分：学习前端开发</p>
-<p>第二部分为成为一个前端开发人员确定了自主学习的直接资源<br>第三部分：前端开发工具</p>
-<p>第三部分会简单地讨论一些前端开发工具的使用</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[CSS Guidelines]]></title>
       <url>http://chenhutong.com/2017/02/08/CSS%20Guidelines/</url>
       <content type="html"><![CDATA[<p><a href="https://getfullstack.com/" target="_blank" rel="external">CSS Guidelines</a><br><a href="https://getfullstack.com/" target="_blank" rel="external">转载地址</a></p>
@@ -49,10 +148,25 @@
     </entry>
     
     <entry>
-      <title><![CDATA[移动前端HTML5head头标签]]></title>
-      <url>http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/</url>
-      <content type="html"><![CDATA[<p><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">移动前端HTML5 head头标签</a><br><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">转载地址</a></p>
-<p>HTML的头部内容特别多，有针对SEO的头部信息，也有针对移动设备的头部信息。而且各个浏览器内核以及各个国内浏览器厂商都有些自己的标签元素,有很多差异性。移动端的工作已经越来越成为前端工作的重要内容，除了平常的项目开发，HTML 头部标签功能，特别是meta，link等标签的功能属性显得非常重要。这里整理了一份 <head> 部分的清单，让大家了解每个标签及相应属性的意义，写出满足自己需求的 <head> 头部标签，可以很有效的增强页面的可用性。</head></head></p>
+      <title><![CDATA[前端开发者手册]]></title>
+      <url>http://chenhutong.com/2017/02/08/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/</url>
+      <content type="html"><![CDATA[<p><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">前端开发者手册</a><br><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">转载地址</a></p>
+<p>撰写该手册的目的有两个: 一是为潜在以及正在实践的前端开发人员提供一个包括学习资料和开发工具的专业资源; 二是该手册可以被管理者, CTO, 讲师和猎头用来作为洞察前端开发的实践.<br>该手册的内容支持Web技术(HTML, CSS, DOM, 和 JavaScript), 并且手册提供的解决方案都直接建立在这些开放的技术之上. 手册中所引用的素材和讨论都是最好的或者当前前端开发者们需要面对的问题.<br>该手册不应该被视为一个前端开发者对所有可用资源的综合大纲, 其价值在于简洁, 专注和及时管理足够的分类信息, 不致于任何人沉浸在任何一个特定的主题.<br>该手册会每年发布一个更新内容.<br>该手册分为三个部分:<br>第一部分：前端开发实践</p>
+<p>第一部分会大致描述前端工程的实践<br>第二部分：学习前端开发</p>
+<p>第二部分为成为一个前端开发人员确定了自主学习的直接资源<br>第三部分：前端开发工具</p>
+<p>第三部分会简单地讨论一些前端开发工具的使用</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[一步一步教你 HTTPS 抓包]]></title>
+      <url>http://chenhutong.com/2017/02/08/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%95%99%E4%BD%A0%20HTTPS%20%E6%8A%93%E5%8C%85/</url>
+      <content type="html"><![CDATA[<p><a href="https://gold.xitu.io/post/584b711d8e450a006c586ca6?utm_source=gold_browser_extension" target="_blank" rel="external">一步一步教你 HTTPS 抓包</a><br><a href="https://gold.xitu.io/post/584b711d8e450a006c586ca6?utm_source=gold_browser_extension" target="_blank" rel="external">转载地址</a></p>
+<p>在 Mac 上常用的抓包软件是 Charles，网上关于 Charles 的教程很多，这里介绍另一个抓包神器 mitmproxy。mitmproxy 是一款可交互式的命令行抓包工具，它除了可以抓包查看 http/https 请求，还有一个很强大的功能是拦截并修改 request 或者 response，后面我会用实际例子演示如何修改知乎的回答:)</p>
+<p>安装</p>
+<p>mitmproxy 官网 介绍了用以下命令来安装</p>
+<p>pip install mitmproxy<br>我在实际安装过程中遇到了一些坑，首先是 OSX El Capitan 及以上的系统版本在安装时会出现 six 模块依赖错误，具体可以看这儿的讨论。还有一个问题是安装过程中会出现权限错误，需要以 root 权限执行。最后用以下命令成功安装,安装不了需要翻一下墙</p>
+<p>pip install mitmproxy –ignore-installed six</p>
 ]]></content>
     </entry>
     
@@ -66,6 +180,14 @@
 <p>The favicon (favourite icon) is an image used by browsers to represent a web page. It is typically 16x16 pixels, but varying and larger sizes are now more frequently required due to browsers using them in a growing number of ways -</p>
 <p>The address bar<br>The links bar<br>Bookmarks<br>Tabs<br>Desktop icon<br>If we do not specify where to find the favicon, all major browsers (as early as IE5) will by default search for a file named “favicon.ico” in the website’s root directory. This means that we technically do not need to declare anything else to have a working favicon.</p>
 <p>However, using the ico format can be limiting. It doesn’t support transparency, and isn’t the most optimized for the web. Nowadays, we are able to use a wider range of formats including png, gif, jpeg, and, in limited circumstances, svg.</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[移动前端HTML5head头标签]]></title>
+      <url>http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">移动前端HTML5 head头标签</a><br><a href="http://www.css88.com/archives/6410" target="_blank" rel="external">转载地址</a></p>
+<p>HTML的头部内容特别多，有针对SEO的头部信息，也有针对移动设备的头部信息。而且各个浏览器内核以及各个国内浏览器厂商都有些自己的标签元素,有很多差异性。移动端的工作已经越来越成为前端工作的重要内容，除了平常的项目开发，HTML 头部标签功能，特别是meta，link等标签的功能属性显得非常重要。这里整理了一份 <head> 部分的清单，让大家了解每个标签及相应属性的意义，写出满足自己需求的 <head> 头部标签，可以很有效的增强页面的可用性。</head></head></p>
 ]]></content>
     </entry>
     
@@ -157,20 +279,20 @@
     </entry>
     
     <entry>
+      <title><![CDATA[CSS Reference]]></title>
+      <url>http://chenhutong.com/2016/02/08/CSS%20Reference/</url>
+      <content type="html"><![CDATA[<p><a href="http://cssreference.io" target="_blank" rel="external">Web全栈技术指南</a><br><a href="http://cssreference.io" target="_blank" rel="external">转载地址</a></p>
+<p><a href="https://github.com/jgthms/css-reference/" target="_blank" rel="external">Github</a><br>CSS Reference: a free visual guide to the most popular CSS properties </p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[20 Useful Resources for Learning about CSS3]]></title>
       <url>http://chenhutong.com/2016/02/08/CSS3%2020%20Useful%20Resources/</url>
       <content type="html"><![CDATA[<p><a href="http://sixrevisions.com/css/20-useful-resources-for-learning-about-css3/" target="_blank" rel="external">20 Useful Resources for Learning about CSS3</a><br><a href="http://sixrevisions.com/css/20-useful-resources-for-learning-about-css3/" target="_blank" rel="external">转载地址</a></p>
 <p>20 Useful Resources for Learning about CSS3</p>
 <p>Though W3C’s CSS3 specifications aren’t finalized yet, modern web browsers such as Mozilla Firefox, Opera, and WebKit-based browsers already have full or partial support for them.</p>
 <p>As a web developer, it’s crucial to be well-informed about modern and future web standards. To help you stay ahead of the curve – here are 20 excellent resources on the topic of CSS3.</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[CSS Reference]]></title>
-      <url>http://chenhutong.com/2016/02/08/CSS%20Reference/</url>
-      <content type="html"><![CDATA[<p><a href="http://cssreference.io" target="_blank" rel="external">Web全栈技术指南</a><br><a href="http://cssreference.io" target="_blank" rel="external">转载地址</a></p>
-<p><a href="https://github.com/jgthms/css-reference/" target="_blank" rel="external">Github</a><br>CSS Reference: a free visual guide to the most popular CSS properties </p>
 ]]></content>
     </entry>
     

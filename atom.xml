@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chenhutong.com/"/>
-  <updated>2017-02-08T09:51:21.000Z</updated>
+  <updated>2017-02-09T02:26:46.000Z</updated>
   <id>http://chenhutong.com/</id>
   
   <author>
@@ -14,6 +14,255 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Service worker实现加速/离线访问静态blog网站</title>
+    <link href="http://chenhutong.com/2017/02/09/Service%20worker%E5%AE%9E%E7%8E%B0%E5%8A%A0%E9%80%9F:%E7%A6%BB%E7%BA%BF%E8%AE%BF%E9%97%AE%E9%9D%99%E6%80%81blog%E7%BD%91%E7%AB%99/"/>
+    <id>http://chenhutong.com/2017/02/09/Service worker实现加速:离线访问静态blog网站/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:26:46.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s/y8zgMC7BIhdcms7qQG4oEw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Service worker实现加速/离线访问静态blog网站&lt;/a&gt;&lt;br&gt;&lt;a href=
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="service worker" scheme="http://chenhutong.com/tags/service-worker/"/>
+    
+      <category term="性能调优" scheme="http://chenhutong.com/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Caching best practices &amp; max-age gotchas</title>
+    <link href="http://chenhutong.com/2017/02/09/Caching%20best%20practices/"/>
+    <id>http://chenhutong.com/2017/02/09/Caching best practices/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:26:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://jakearchibald.com/2016/caching-best-practices/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Caching best practices &amp;amp; max-age gotc
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="PWA" scheme="http://chenhutong.com/tags/PWA/"/>
+    
+      <category term="service worker" scheme="http://chenhutong.com/tags/service-worker/"/>
+    
+      <category term="性能调优" scheme="http://chenhutong.com/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Progressive Web Apps with Webpack</title>
+    <link href="http://chenhutong.com/2017/02/09/Progressive%20Web%20Apps%20with%20Webpack/"/>
+    <id>http://chenhutong.com/2017/02/09/Progressive Web Apps with Webpack/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:26:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://michalzalecki.com/progressive-web-apps-with-webpack/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Progressive Web Apps with Webpack&lt;/a
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="PWA" scheme="http://chenhutong.com/tags/PWA/"/>
+    
+      <category term="性能调优" scheme="http://chenhutong.com/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
+    
+      <category term="Webpack" scheme="http://chenhutong.com/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ECMAScript 6 入门</title>
+    <link href="http://chenhutong.com/2017/02/09/ECMAScript%206%20%E5%85%A5%E9%97%A8/"/>
+    <id>http://chenhutong.com/2017/02/09/ECMAScript 6 入门/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T01:37:23.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://es6.ruanyifeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ECMAScript 6 入门&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://es6.ruanyifeng.com/&quot; target=&quot;_
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="ES2015" scheme="http://chenhutong.com/tags/ES2015/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS3动画手册</title>
+    <link href="http://chenhutong.com/2017/02/09/CSS3%E5%8A%A8%E7%94%BB%E6%89%8B%E5%86%8C/"/>
+    <id>http://chenhutong.com/2017/02/09/CSS3动画手册/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:26:57.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://isux.tencent.com/css3/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSS3动画手册&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://isux.tencent.com/css3/
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="css3" scheme="http://chenhutong.com/tags/css3/"/>
+    
+      <category term="动画" scheme="http://chenhutong.com/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+      <category term="工具" scheme="http://chenhutong.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Service Worker那些事</title>
+    <link href="http://chenhutong.com/2017/02/09/Service%20Worker%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
+    <id>http://chenhutong.com/2017/02/09/Service Worker那些事/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:26:50.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/20040372?columnSlug=FrontendMagazine&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Service Worker那些事&lt;/a&gt;&lt;br&gt;&lt;a hr
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="service worker" scheme="http://chenhutong.com/tags/service-worker/"/>
+    
+      <category term="性能调优" scheme="http://chenhutong.com/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信、facebook、google+、twitter等分享的标签</title>
+    <link href="http://chenhutong.com/2017/02/09/%E5%BE%AE%E4%BF%A1%E3%80%81facebook%E3%80%81google+%E3%80%81twitter%E7%AD%89%E5%88%86%E4%BA%AB%E7%9A%84%E6%A0%87%E7%AD%BE/"/>
+    <id>http://chenhutong.com/2017/02/09/微信、facebook、google+、twitter等分享的标签/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:12:35.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/zdz8207/p/share-wx_pic-meta.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微信分享缩略图，如何增加微信朋友圈分享链接的小图片? facebook、goog
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="微信分享缩略图" scheme="http://chenhutong.com/tags/%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB%E7%BC%A9%E7%95%A5%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Absolute Centering in CSS</title>
+    <link href="http://chenhutong.com/2017/02/09/%E5%B1%85%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
+    <id>http://chenhutong.com/2017/02/09/居中的各种方法/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T01:58:05.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codepen.io/shshaw/full/gEiDt&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Absolute Centering in CSS&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://codepen.io/
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="CSS" scheme="http://chenhutong.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习 Web 开发的最佳实践</title>
+    <link href="http://chenhutong.com/2017/02/09/%E5%AD%A6%E4%B9%A0%20Web%20%E5%BC%80%E5%8F%91%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://chenhutong.com/2017/02/09/学习 Web 开发的最佳实践/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T02:03:53.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/Tutorials&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;学习 Web 开发的最佳实践&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HTML 入门&lt;br&gt;初级课程
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="ES2015" scheme="http://chenhutong.com/tags/ES2015/"/>
+    
+      <category term="api" scheme="http://chenhutong.com/tags/api/"/>
+    
+      <category term="HTML5" scheme="http://chenhutong.com/tags/HTML5/"/>
+    
+      <category term="CSS3" scheme="http://chenhutong.com/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端常用工具类库api</title>
+    <link href="http://chenhutong.com/2017/02/09/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%BA%93api/"/>
+    <id>http://chenhutong.com/2017/02/09/前端常用工具类库api/</id>
+    <published>2017-02-08T16:00:00.000Z</published>
+    <updated>2017-02-09T01:59:19.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://backbonejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;backbone&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://overapi.com/&quot; target=&quot;_blank&quot; rel=&quot;extern
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="ES2015" scheme="http://chenhutong.com/tags/ES2015/"/>
+    
+      <category term="api" scheme="http://chenhutong.com/tags/api/"/>
+    
+      <category term="HTML5" scheme="http://chenhutong.com/tags/HTML5/"/>
+    
+      <category term="CSS3" scheme="http://chenhutong.com/tags/CSS3/"/>
+    
+  </entry>
   
   <entry>
     <title>最全前端资源汇集</title>
@@ -46,7 +295,7 @@
     <link href="http://chenhutong.com/2017/02/08/%E6%B8%90%E8%BF%9B%E5%BC%8F%20Web%20%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E5%8A%A0%E8%BD%BD%E6%80%A7%E8%83%BD/"/>
     <id>http://chenhutong.com/2017/02/08/渐进式 Web 应用程序页面加载性能/</id>
     <published>2017-02-07T16:00:00.000Z</published>
-    <updated>2017-02-08T09:57:17.000Z</updated>
+    <updated>2017-02-09T01:17:22.000Z</updated>
     
     <summary type="html">
     
@@ -59,33 +308,7 @@
     
       <category term="web" scheme="http://chenhutong.com/tags/web/"/>
     
-      <category term="前端开发" scheme="http://chenhutong.com/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
       <category term="性能调优" scheme="http://chenhutong.com/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>前端开发者手册</title>
-    <link href="http://chenhutong.com/2017/02/08/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
-    <id>http://chenhutong.com/2017/02/08/前端开发者手册/</id>
-    <published>2017-02-07T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://dwqs.gitbooks.io/frontenddevhandbook/content/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端开发者手册&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://dwqs.gitbo
-    
-    </summary>
-    
-      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
-    
-      <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
-    
-      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
-    
-      <category term="手册" scheme="http://chenhutong.com/tags/%E6%89%8B%E5%86%8C/"/>
     
       <category term="前端开发" scheme="http://chenhutong.com/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
@@ -120,28 +343,54 @@
   </entry>
   
   <entry>
-    <title>移动前端HTML5head头标签</title>
-    <link href="http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/"/>
-    <id>http://chenhutong.com/2016/04/20/移动前端HTML5 head头标签/</id>
-    <published>2016-04-19T16:00:00.000Z</published>
+    <title>前端开发者手册</title>
+    <link href="http://chenhutong.com/2017/02/08/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
+    <id>http://chenhutong.com/2017/02/08/前端开发者手册/</id>
+    <published>2017-02-07T16:00:00.000Z</published>
     <updated>2017-02-08T09:51:21.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://www.css88.com/archives/6410&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;移动前端HTML5 head头标签&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.css88.com/archiv
+      &lt;p&gt;&lt;a href=&quot;https://dwqs.gitbooks.io/frontenddevhandbook/content/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端开发者手册&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://dwqs.gitbo
     
     </summary>
     
-      <category term="前端基础" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="转载" scheme="http://chenhutong.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
     
-      <category term="html5" scheme="http://chenhutong.com/tags/html5/"/>
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
     
-      <category term="meta" scheme="http://chenhutong.com/tags/meta/"/>
+      <category term="手册" scheme="http://chenhutong.com/tags/%E6%89%8B%E5%86%8C/"/>
     
-      <category term="移动端" scheme="http://chenhutong.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+      <category term="前端开发" scheme="http://chenhutong.com/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一步一步教你 HTTPS 抓包</title>
+    <link href="http://chenhutong.com/2017/02/08/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%95%99%E4%BD%A0%20HTTPS%20%E6%8A%93%E5%8C%85/"/>
+    <id>http://chenhutong.com/2017/02/08/一步一步教你 HTTPS 抓包/</id>
+    <published>2017-02-07T16:00:00.000Z</published>
+    <updated>2017-02-09T01:30:49.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://gold.xitu.io/post/584b711d8e450a006c586ca6?utm_source=gold_browser_extension&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一步一步教你 HTTP
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
+    
+      <category term="HTTPS" scheme="http://chenhutong.com/tags/HTTPS/"/>
+    
+      <category term="调试" scheme="http://chenhutong.com/tags/%E8%B0%83%E8%AF%95/"/>
+    
+      <category term="抓包" scheme="http://chenhutong.com/tags/%E6%8A%93%E5%8C%85/"/>
     
   </entry>
   
@@ -175,6 +424,32 @@
   </entry>
   
   <entry>
+    <title>移动前端HTML5head头标签</title>
+    <link href="http://chenhutong.com/2016/04/20/%E7%A7%BB%E5%8A%A8%E5%89%8D%E7%AB%AFHTML5%20head%E5%A4%B4%E6%A0%87%E7%AD%BE/"/>
+    <id>http://chenhutong.com/2016/04/20/移动前端HTML5 head头标签/</id>
+    <published>2016-04-19T16:00:00.000Z</published>
+    <updated>2017-02-08T09:51:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.css88.com/archives/6410&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;移动前端HTML5 head头标签&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.css88.com/archiv
+    
+    </summary>
+    
+      <category term="前端基础" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="转载" scheme="http://chenhutong.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="html5" scheme="http://chenhutong.com/tags/html5/"/>
+    
+      <category term="meta" scheme="http://chenhutong.com/tags/meta/"/>
+    
+      <category term="移动端" scheme="http://chenhutong.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>最全前端资源汇集</title>
     <link href="http://chenhutong.com/2016/04/20/%E6%9C%80%E5%85%A8%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E6%B1%87%E9%9B%86/"/>
     <id>http://chenhutong.com/2016/04/20/最全前端资源汇集/</id>
@@ -199,32 +474,6 @@
       <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
     
       <category term="转载" scheme="http://chenhutong.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20 Useful Resources for Learning about CSS3</title>
-    <link href="http://chenhutong.com/2016/02/08/CSS3%2020%20Useful%20Resources/"/>
-    <id>http://chenhutong.com/2016/02/08/CSS3 20 Useful Resources/</id>
-    <published>2016-02-07T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://sixrevisions.com/css/20-useful-resources-for-learning-about-css3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;20 Useful Resources for
-    
-    </summary>
-    
-      <category term="前端基础" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
-    
-      <category term="web" scheme="http://chenhutong.com/tags/web/"/>
-    
-      <category term="CSS" scheme="http://chenhutong.com/tags/CSS/"/>
-    
-      <category term="github" scheme="http://chenhutong.com/tags/github/"/>
     
   </entry>
   
@@ -255,43 +504,19 @@
   </entry>
   
   <entry>
-    <title>JavaScript 标准参考教程</title>
-    <link href="http://chenhutong.com/2016/01/20/JavaScript%20%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B/"/>
-    <id>http://chenhutong.com/2016/01/20/JavaScript 标准参考教程/</id>
-    <published>2016-01-19T16:00:00.000Z</published>
+    <title>20 Useful Resources for Learning about CSS3</title>
+    <link href="http://chenhutong.com/2016/02/08/CSS3%2020%20Useful%20Resources/"/>
+    <id>http://chenhutong.com/2016/02/08/CSS3 20 Useful Resources/</id>
+    <published>2016-02-07T16:00:00.000Z</published>
     <updated>2017-02-08T09:51:21.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://javascript.ruanyifeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript 标准参考教程&lt;/a&gt;&lt;br&gt;An open JavaScript tutorial book, foc
+      &lt;p&gt;&lt;a href=&quot;http://sixrevisions.com/css/20-useful-resources-for-learning-about-css3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;20 Useful Resources for
     
     </summary>
     
       <category term="前端基础" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="javascript" scheme="http://chenhutong.com/tags/javascript/"/>
-    
-      <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
-    
-      <category term="转载" scheme="http://chenhutong.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS属性推荐书写顺序</title>
-    <link href="http://chenhutong.com/2015/02/08/CSS%E5%B1%9E%E6%80%A7%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F/"/>
-    <id>http://chenhutong.com/2015/02/08/CSS属性推荐书写顺序/</id>
-    <published>2015-02-07T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;CSS属性推荐书写顺序&lt;br&gt;div {&lt;br&gt;  position: ;&lt;br&gt;  top: ;&lt;br&gt;  right: ;&lt;br&gt;  bottom: ;&lt;br&gt;  left: ;&lt;br&gt;  z-index: ;&lt;br&gt;  float: ;&lt;br&gt;  display: ;
-    
-    </summary>
-    
-      <category term="前端开发" scheme="http://chenhutong.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
       <category term="标准参考" scheme="http://chenhutong.com/tags/%E6%A0%87%E5%87%86%E5%8F%82%E8%80%83/"/>
@@ -300,102 +525,7 @@
     
       <category term="CSS" scheme="http://chenhutong.com/tags/CSS/"/>
     
-      <category term="手册" scheme="http://chenhutong.com/tags/%E6%89%8B%E5%86%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>React Native配置和起步</title>
-    <link href="http://chenhutong.com/2015/01/20/React%20Native%E9%85%8D%E7%BD%AE%E5%92%8C%E8%B5%B7%E6%AD%A5/"/>
-    <id>http://chenhutong.com/2015/01/20/React Native配置和起步/</id>
-    <published>2015-01-19T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;React Native: 配置和起步&lt;br&gt;23 Sep 2015&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.liaohuqiu.net/cn/posts/react-native-1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rea
-    
-    </summary>
-    
-      <category term="app" scheme="http://chenhutong.com/categories/app/"/>
-    
-    
-      <category term="javascript" scheme="http://chenhutong.com/tags/javascript/"/>
-    
-      <category term="转载" scheme="http://chenhutong.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="React" scheme="http://chenhutong.com/tags/React/"/>
-    
-      <category term="React Native" scheme="http://chenhutong.com/tags/React-Native/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高质量JavaScript基本要点</title>
-    <link href="http://chenhutong.com/2014/02/07/javascript-patterns2/"/>
-    <id>http://chenhutong.com/2014/02/07/javascript-patterns2/</id>
-    <published>2014-02-06T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a name=&quot;a1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;第二章-高质量JavaScript基本要点&quot;&gt;&lt;a href=&quot;#第二章-高质量JavaScript基本要点&quot; class=&quot;headerlink&quot; title=&quot;第二章 高质量JavaScript基本要点&quot;&gt;&lt;/
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://chenhutong.com/categories/javascript/"/>
-    
-    
-      <category term="javascript" scheme="http://chenhutong.com/tags/javascript/"/>
-    
-      <category term="patterns" scheme="http://chenhutong.com/tags/patterns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>直接量和构造函数</title>
-    <link href="http://chenhutong.com/2014/01/20/javascript-patterns3/"/>
-    <id>http://chenhutong.com/2014/01/20/javascript-patterns3/</id>
-    <published>2014-01-19T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a name=&quot;a1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;第三章-直接量和构造函数&quot;&gt;&lt;a href=&quot;#第三章-直接量和构造函数&quot; class=&quot;headerlink&quot; title=&quot;第三章 直接量和构造函数&quot;&gt;&lt;/a&gt;第三章 直接量和构造函数&lt;/h1&gt;&lt;p&gt;JavaS
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://chenhutong.com/categories/javascript/"/>
-    
-    
-      <category term="javascript" scheme="http://chenhutong.com/tags/javascript/"/>
-    
-      <category term="patterns" scheme="http://chenhutong.com/tags/patterns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>概述about</title>
-    <link href="http://chenhutong.com/2014/01/20/javascript-patterns1/"/>
-    <id>http://chenhutong.com/2014/01/20/javascript-patterns1/</id>
-    <published>2014-01-19T16:00:00.000Z</published>
-    <updated>2017-02-08T09:51:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;第一章-概述&quot;&gt;&lt;a href=&quot;#第一章-概述&quot; class=&quot;headerlink&quot; title=&quot;第一章 概述&quot;&gt;&lt;/a&gt;第一章 概述&lt;/h1&gt;&lt;p&gt;JavaScript是一门Web开发语言。起初只是用来操作网页中为数不多的元素（比如图片和表单域），但谁也没
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://chenhutong.com/categories/javascript/"/>
-    
-    
-      <category term="javascript" scheme="http://chenhutong.com/tags/javascript/"/>
-    
-      <category term="patterns" scheme="http://chenhutong.com/tags/patterns/"/>
+      <category term="github" scheme="http://chenhutong.com/tags/github/"/>
     
   </entry>
   

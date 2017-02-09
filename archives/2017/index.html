@@ -124,57 +124,13 @@
   <section class="meta">
     
     <h2 class="title">
-      <a href="/2017/02/08/Web全栈技术指南/">
-        最全前端资源汇集
+      <a href="/2017/02/09/Service worker实现加速:离线访问静态blog网站/">
+        Service worker实现加速/离线访问静态blog网站
       </a>
     </h2>
     
     <time>
-      2月 8, 2017
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/前端资源/">前端资源</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <p><a href="https://getfullstack.com/" target="_blank" rel="external">Web全栈技术指南</a><br><a href="https://getfullstack.com/" target="_blank" rel="external">转载地址</a></p>
-<p>“怎样成为一名Web全栈工程师？”<br>“去做，你就能行。”<br>这答案深刻了——问题是从哪儿开始呢？本书试图绘制一张技术地图，让你看清Web开发的全貌，同时它还有足够的细节让你找到通往目标的路径。当然，无论怎样，仅凭一张地图是到不了目的地的，你得靠自己的双脚走过去。<br>我假定读者具有一定的编程基础——你可以是业余的软件开发者、计算机相关专业的学生，也可以是职业的软件工程师——只要你想了解Web开发的全貌或者入门的路径，都可以在这里找到有价值的东西。<br>我将从Web的基础知识开始，依次介绍Web浏览器与服务器的开发要点、Web网站的组成与架构，最后是一些重要的开发/部署工具和技术。本书以一种循序渐进的方式展开，因此推荐读者按顺序阅读，但你也可以直接跳入某一章节，仅当有问题时再回头来看。<br>本书包含了一些示例代码和命令，并且在正文或脚注中说明了执行它们的方法。读者应尽可能动手输入、运行一下这些代码和命令；如果能进一步做一些修改，并思考、查看结果有何不同，那就更好了——这是阅读、学习技术文档的正确方式——经验是无法从纸面上读出来的，有一些坑你必须要踩过，才能说懂得。<br>本书并不绑定某一种编程语言——因此它不叫《XX Web开发指南》，XX可以是Java、PHP、Python或者Ruby等等。本书着重的是Web开发的原理、一般方法和工具。它们是一切Web开发的基础，不论你使用何种编程语言。另一方面，在合适的地方，本书也对相关的编程语言和技术做了介绍，并给出进一步学习的建议。<br>本书也不是某种《技术大全》——它并不巨细靡遗地罗列所有Web相关的技术。相反，它从开发实践的角度出发，力图以简明扼要的方式来介绍那些最重要、最常见的概念和技术，并引导读者自己加深阅读。<br>最后，我试着用一种“敏捷”的方式进行写作：从一个MVP（最小可用产品）开始不断迭代，并实时发布。因此在本书最终定稿前，提纲和内容都会不断更新。另一方面，欢迎你随时提出问题和建议：你的反馈将影响到本书的内容和组织。你可以通过邮件与我联系：louirobert@gmail.com。</p>
-
-
-    
-    
-    
-	  <div class="full-width tags">
-      
-        <a href="/tags/标准参考/">标准参考</a>
-      
-        <a href="/tags/转载/">转载</a>
-      
-        <a href="/tags/web/">web</a>
-      
-        <a href="/tags/全栈/">全栈</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post ">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2017/02/08/渐进式 Web 应用程序页面加载性能/">
-        渐进式 Web 应用程序页面加载性能
-      </a>
-    </h2>
-    
-    <time>
-      2月 8, 2017
+      2月 9, 2017
     </time>
 		
     
@@ -184,15 +140,8 @@
 
   </section>
   <section class="article typo">
-	  <p><a href="http://blog.zhaiyifan.cn/2016/11/16/pwa-react-p2/" target="_blank" rel="external">使用 React.js 的渐进式 Web 应用程序：第 2 部分 - 页面加载性能</a><br><a href="http://blog.zhaiyifan.cn/2016/11/16/pwa-react-p2/" target="_blank" rel="external">转载地址</a></p>
-<p>这是新系列的第二部分，新系列介绍的是使用 Lighthouse 优化移动 web 应用传输的技巧。本期，我们关注的是页面加载性能。<br>保证页面加载性能是快的</p>
-<p>移动 Web 的速度很关键。平均来说，更快的体验会 延长 70% 的会话 以及两倍以上更多的移动广告收益。基于 React 的 Web 性能投资中，Flipkart Lite 使访问时间提升了三倍， GQ 在流量上得到了 80% 增长，Trainline 在 年收益上增长了 11M 并且 Instagram 的 好感度上升了 33%。</p>
-<p>测量并优化一直很重要。Lighthouse 的页面加载检测会关注：</p>
-<p>第一次有意义的绘制（当页面主内容可见）<br>速度指数（Speed Index）（完全可见）<br>估算的输入延迟（主线程什么时候才能立即处理用户输入）<br>以及 抵达可交互的时间（ app 到开始可用和可交互的时间)<br>关于 PWA 值得关注的有趣指标)，Paul Irish 做了很棒的总结。</p>
-<p>良好性能的目标：</p>
-<p>遵循 RAIL 性能模型 的 L 部分。A+ 的性能是我们所有人都必须力求达到的，即便有的浏览器不支持 Service Worker。我们仍然可以快速地在屏幕上获得一些有意义的内容，并且仅加载我们所需要的<br>在典型网络（3G）和硬件条件下<br>首次访问在 5 秒内可交互，重复访问（Service Worker 可用）则在 2 秒内。<br>首次加载（网络限制下），速度指数在 3000 或者更少。<br>第二次加载（磁盘限制，因为 Service Worker 可用）：速度指数 1000 或者更少。<br>让我们再说说，关于通过 TTI 关注交互性。</p>
-<p>关注抵达可交互时间（TTI）</p>
-<p>为交互性优化，也就是使得 app 尽快能对用户可用（比如让他们可以四处点击，app 可以响应）。这对试图在移动设备上提供一流用户体验的现代 web 体验很关键。</p>
+	  <p><a href="http://mp.weixin.qq.com/s/y8zgMC7BIhdcms7qQG4oEw" target="_blank" rel="external">Service worker实现加速/离线访问静态blog网站</a><br><a href="http://mp.weixin.qq.com/s/y8zgMC7BIhdcms7qQG4oEw" target="_blank" rel="external">转载地址</a></p>
+<p>现在很流行基于 GitHub page 和 markdown 的静态 blog，非常适合技术的思维和习惯，针对不同的语言都有一些优秀的静态 blog 系统出现，如 Jekyll/Ruby，Pelican/Python，Hexo/NodeJs，由于静态内容的特性非常适合做缓存来加速页面的访问，就利用 Service worker 来实现加速，结果是除了 PageSpeed，CDN 这些常见的服务器和网络加速之外，通过客户端实现了更好的访问体验。</p>
 
 
     
@@ -202,7 +151,7 @@
       
         <a href="/tags/web/">web</a>
       
-        <a href="/tags/前端开发/">前端开发</a>
+        <a href="/tags/service-worker/">service worker</a>
       
         <a href="/tags/性能调优/">性能调优</a>
       
@@ -217,13 +166,13 @@
   <section class="meta">
     
     <h2 class="title">
-      <a href="/2017/02/08/前端开发者手册/">
-        前端开发者手册
+      <a href="/2017/02/09/Caching best practices/">
+        Caching best practices &amp; max-age gotchas
       </a>
     </h2>
     
     <time>
-      2月 8, 2017
+      2月 9, 2017
     </time>
 		
     
@@ -233,11 +182,8 @@
 
   </section>
   <section class="article typo">
-	  <p><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">前端开发者手册</a><br><a href="https://dwqs.gitbooks.io/frontenddevhandbook/content/" target="_blank" rel="external">转载地址</a></p>
-<p>撰写该手册的目的有两个: 一是为潜在以及正在实践的前端开发人员提供一个包括学习资料和开发工具的专业资源; 二是该手册可以被管理者, CTO, 讲师和猎头用来作为洞察前端开发的实践.<br>该手册的内容支持Web技术(HTML, CSS, DOM, 和 JavaScript), 并且手册提供的解决方案都直接建立在这些开放的技术之上. 手册中所引用的素材和讨论都是最好的或者当前前端开发者们需要面对的问题.<br>该手册不应该被视为一个前端开发者对所有可用资源的综合大纲, 其价值在于简洁, 专注和及时管理足够的分类信息, 不致于任何人沉浸在任何一个特定的主题.<br>该手册会每年发布一个更新内容.<br>该手册分为三个部分:<br>第一部分：前端开发实践</p>
-<p>第一部分会大致描述前端工程的实践<br>第二部分：学习前端开发</p>
-<p>第二部分为成为一个前端开发人员确定了自主学习的直接资源<br>第三部分：前端开发工具</p>
-<p>第三部分会简单地讨论一些前端开发工具的使用</p>
+	  <p><a href="https://jakearchibald.com/2016/caching-best-practices/" target="_blank" rel="external">Caching best practices &amp; max-age gotchas</a><br><a href="https://jakearchibald.com/2016/caching-best-practices/" target="_blank" rel="external">转载地址</a></p>
+<p>Getting caching right yields huge performance benefits, saves bandwidth, and reduces server costs, but many sites half-arse their caching, creating race conditions resulting in interdependent resources getting out of sync.</p>
 
 
     
@@ -245,13 +191,13 @@
     
 	  <div class="full-width tags">
       
-        <a href="/tags/标准参考/">标准参考</a>
-      
         <a href="/tags/web/">web</a>
       
-        <a href="/tags/手册/">手册</a>
+        <a href="/tags/PWA/">PWA</a>
       
-        <a href="/tags/前端开发/">前端开发</a>
+        <a href="/tags/service-worker/">service worker</a>
+      
+        <a href="/tags/性能调优/">性能调优</a>
       
 	  </div>
     
@@ -264,27 +210,25 @@
   <section class="meta">
     
     <h2 class="title">
-      <a href="/2017/02/08/CSS Guidelines/">
-        CSS Guidelines
+      <a href="/2017/02/09/Progressive Web Apps with Webpack/">
+        Progressive Web Apps with Webpack
       </a>
     </h2>
     
     <time>
-      2月 8, 2017
+      2月 9, 2017
     </time>
 		
     
     <div class='cats'>
-        <a href="/categories/前端学习/">前端学习</a>, <a href="/categories/前端学习/规范/">规范</a>
+        <a href="/categories/前端开发/">前端开发</a>
     </div>
 
   </section>
   <section class="article typo">
-	  <p><a href="https://getfullstack.com/" target="_blank" rel="external">CSS Guidelines</a><br><a href="https://getfullstack.com/" target="_blank" rel="external">转载地址</a></p>
-<p>High-level advice and guidelines for writing sane, manageable, scalable CSS</p>
-<p>CSS is not a pretty language. While it is simple to learn and get started with, it soon becomes problematic at any reasonable scale. There isn’t much we can do to change how CSS works, but we can make changes to the way we author and structure it.</p>
-<p>In working on large, long-running projects, with dozens of developers of differing specialities and abilities, it is important that we all work in a unified way in order to—among other things—</p>
-<p>keep stylesheets maintainable;<br>keep code transparent, sane, and readable;<br>keep stylesheets scalable.<br>There are a variety of techniques we must employ in order to satisfy these goals, and CSS Guidelines is a document of recommendations and approaches that will help us to do so.</p>
+	  <p><a href="http://michalzalecki.com/progressive-web-apps-with-webpack/" target="_blank" rel="external">Progressive Web Apps with Webpack</a><br><a href="http://michalzalecki.com/progressive-web-apps-with-webpack/" target="_blank" rel="external">转载地址</a></p>
+<p>My first offline web app heavily depended on AppCache and it was painful experience. Don’t get me wrong, AppCache initially blow my mind, in a positive sense. Web App without a web? In the browser? Sounds awesome, isn’t it? My further experiments with AppCache convinced me that unfortunately it’s not the path I’d like to follow when it comes to building something serious.</p>
+<p>AppCache makes many assumptions which is prone to many real-world loopholes and manifest file is nothing more than configuration file referenced in HTML. I didn’t know what can be the right way to deal with offline web apps at that time. Progressive Web App Dev Summit was quite a breakthrough for me. Service Workers gives developer a great power of delivering offline experience (programmatically) without the need of installing native app. How cool is that!</p>
 
 
     
@@ -294,11 +238,53 @@
       
         <a href="/tags/web/">web</a>
       
-        <a href="/tags/CSS/">CSS</a>
+        <a href="/tags/PWA/">PWA</a>
       
-        <a href="/tags/BEM/">BEM</a>
+        <a href="/tags/性能调优/">性能调优</a>
       
-        <a href="/tags/规范/">规范</a>
+        <a href="/tags/Webpack/">Webpack</a>
+      
+	  </div>
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post ">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2017/02/09/ECMAScript 6 入门/">
+        ECMAScript 6 入门
+      </a>
+    </h2>
+    
+    <time>
+      2月 9, 2017
+    </time>
+		
+    
+    <div class='cats'>
+        <a href="/categories/前端开发/">前端开发</a>
+    </div>
+
+  </section>
+  <section class="article typo">
+	  <p><a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">ECMAScript 6 入门</a><br><a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">转载地址</a></p>
+<p>本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。</p>
+<p>本书为中级难度，适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。</p>
+<p>全书已由电子工业出版社出版，目前是第二版，书名为《ES6 标准入门》。纸版是基于网站内容排版印刷的。</p>
+
+
+    
+    
+    
+	  <div class="full-width tags">
+      
+        <a href="/tags/web/">web</a>
+      
+        <a href="/tags/ES2015/">ES2015</a>
       
 	  </div>
     
@@ -308,6 +294,17 @@
   
 </section>
 
+
+  <nav id="page-nav">
+    
+    
+    <a class="next" rel="next" href="/archives/2017/page/2/">
+      <span class="text">Next</span>
+      <span class="icon icon-chevron-right"></span>
+    </a>
+    
+  </nav>
+  
 
 
       </div>
@@ -352,6 +349,10 @@
             <div class='name'>抽奖控制</div>
         </a></li>
     
+        <li><a class="flat-box" target="_blank" href="http://www.chenhutong.com/webportal/">
+            <div class='name'>画廊门户</div>
+        </a></li>
+    
     </ul>
 </div>
 </section>
@@ -370,7 +371,7 @@
     
         <li><a class="flat-box" href="/categories/前端学习/"><div class='name'>前端学习</div><div class='badget'>1</div></a></li>
     
-        <li><a class="flat-box" href="/categories/前端开发/"><div class='name'>前端开发</div><div class='badget'>3</div></a></li>
+        <li><a class="flat-box" href="/categories/前端开发/"><div class='name'>前端开发</div><div class='badget'>14</div></a></li>
     
         <li><a class="flat-box" href="/categories/前端基础/前端资源/"><div class='name'>前端资源</div><div class='badget'>2</div></a></li>
     
@@ -387,7 +388,7 @@
 <div class="m_widget tagcloud">
     <div class="header">Tags</div>
     <div class='content'>
-        <a href="/tags/BEM/" style="font-size: 14px; color: #808080">BEM</a> <a href="/tags/CSS/" style="font-size: 17px; color: #404040">CSS</a> <a href="/tags/React/" style="font-size: 14px; color: #808080">React</a> <a href="/tags/React-Native/" style="font-size: 14px; color: #808080">React Native</a> <a href="/tags/github/" style="font-size: 15px; color: #6b6b6b">github</a> <a href="/tags/html5/" style="font-size: 14px; color: #808080">html5</a> <a href="/tags/javascript/" style="font-size: 19px; color: #151515">javascript</a> <a href="/tags/meta/" style="font-size: 14px; color: #808080">meta</a> <a href="/tags/patterns/" style="font-size: 16px; color: #555">patterns</a> <a href="/tags/web/" style="font-size: 19px; color: #151515">web</a> <a href="/tags/全栈/" style="font-size: 14px; color: #808080">全栈</a> <a href="/tags/前端开发/" style="font-size: 15px; color: #6b6b6b">前端开发</a> <a href="/tags/前端资源/" style="font-size: 15px; color: #6b6b6b">前端资源</a> <a href="/tags/性能调优/" style="font-size: 14px; color: #808080">性能调优</a> <a href="/tags/手册/" style="font-size: 15px; color: #6b6b6b">手册</a> <a href="/tags/标准参考/" style="font-size: 20px; color: #000">标准参考</a> <a href="/tags/移动端/" style="font-size: 14px; color: #808080">移动端</a> <a href="/tags/规范/" style="font-size: 14px; color: #808080">规范</a> <a href="/tags/转载/" style="font-size: 18px; color: #2b2b2b">转载</a>
+        <a href="/tags/BEM/" style="font-size: 14px; color: #808080">BEM</a> <a href="/tags/CSS/" style="font-size: 16.57px; color: #494949">CSS</a> <a href="/tags/CSS3/" style="font-size: 14.86px; color: #6e6e6e">CSS3</a> <a href="/tags/ES2015/" style="font-size: 15.71px; color: #5b5b5b">ES2015</a> <a href="/tags/HTML5/" style="font-size: 14.86px; color: #6e6e6e">HTML5</a> <a href="/tags/HTTPS/" style="font-size: 14px; color: #808080">HTTPS</a> <a href="/tags/PWA/" style="font-size: 14.86px; color: #6e6e6e">PWA</a> <a href="/tags/React/" style="font-size: 14px; color: #808080">React</a> <a href="/tags/React-Native/" style="font-size: 14px; color: #808080">React Native</a> <a href="/tags/Webpack/" style="font-size: 14px; color: #808080">Webpack</a> <a href="/tags/api/" style="font-size: 14.86px; color: #6e6e6e">api</a> <a href="/tags/css3/" style="font-size: 14px; color: #808080">css3</a> <a href="/tags/github/" style="font-size: 14.86px; color: #6e6e6e">github</a> <a href="/tags/html5/" style="font-size: 14px; color: #808080">html5</a> <a href="/tags/javascript/" style="font-size: 18.29px; color: #252525">javascript</a> <a href="/tags/meta/" style="font-size: 14px; color: #808080">meta</a> <a href="/tags/patterns/" style="font-size: 15.71px; color: #5b5b5b">patterns</a> <a href="/tags/service-worker/" style="font-size: 15.71px; color: #5b5b5b">service worker</a> <a href="/tags/web/" style="font-size: 20px; color: #000">web</a> <a href="/tags/全栈/" style="font-size: 14px; color: #808080">全栈</a> <a href="/tags/前端开发/" style="font-size: 14.86px; color: #6e6e6e">前端开发</a> <a href="/tags/前端资源/" style="font-size: 14.86px; color: #6e6e6e">前端资源</a> <a href="/tags/动画/" style="font-size: 14px; color: #808080">动画</a> <a href="/tags/工具/" style="font-size: 14px; color: #808080">工具</a> <a href="/tags/微信分享缩略图/" style="font-size: 14px; color: #808080">微信分享缩略图</a> <a href="/tags/性能调优/" style="font-size: 16.57px; color: #494949">性能调优</a> <a href="/tags/手册/" style="font-size: 14.86px; color: #6e6e6e">手册</a> <a href="/tags/抓包/" style="font-size: 14px; color: #808080">抓包</a> <a href="/tags/标准参考/" style="font-size: 19.14px; color: #121212">标准参考</a> <a href="/tags/移动端/" style="font-size: 14px; color: #808080">移动端</a> <a href="/tags/规范/" style="font-size: 14px; color: #808080">规范</a> <a href="/tags/调试/" style="font-size: 14px; color: #808080">调试</a> <a href="/tags/转载/" style="font-size: 17.43px; color: #373737">转载</a>
     </div>
 </div>
 
@@ -419,8 +420,6 @@
       
     
   </div>
-  
-  <div>Theme <a href='https://github.com/stkevintan/hexo-theme-material-flow' class="codename">MaterialFlow</a> designed by <a href="http://keyin.me/" target="_blank">Kevin Tan</a>.</div>
   
 </footer>
 

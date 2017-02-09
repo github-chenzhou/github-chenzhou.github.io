@@ -417,7 +417,11 @@
   
 </footer>
 
-
+<script>
+if ('serviceWorker' in navigator) {
+ navigator.serviceWorker.register('/sw.js');
+}
+</script>
   <script>setLoadingBarProgress(80);</script>
   <script type="text/javascript" src="//api.i-meto.com/hitokoto?encode=js-html" async defer></script> 
 
